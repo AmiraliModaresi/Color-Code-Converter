@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Code Converter</title>
+</head>
+
+<body>
+
+    <!-- circles: -->
+    <div class="upper-circle circle"></div>
+
+    <div class="lower-circle circle"></div>
+
+    <!-- centeral section: -->
+    <form class="form">
+
+        <div class="text-parent">
+            <h3>Color converter</h3>
+            <p>Paste your color code into the matching input.</p>
+        </div>
+
+        <div class="input-parent">
+            <span class="input-placeholder">HEX</span>
+            <input type="text" class="inputs" name="hex-input" id="hex-input">
+
+            <div class="icon-parent">
+                <img src="images/copy-icon.png" alt="C" class="copy-icon">
+            </div>
+
+            <div class="error" id="invalid-hex">Invalid Hex!</div>
+        </div>
+
+        <div class="input-parent">
+            <span class="input-placeholder">RGB</span>
+            <input type="text" class="inputs" name="rgb-input" id="rgb-input">
+
+            <div class="icon-parent">
+                <img src="images/copy-icon.png" alt="C" class="copy-icon">
+            </div>
+
+            <div class="error" id="invalid-rgb">Invalid RGB!</div>
+        </div>
+
+        <div class="input-parent">
+            <span class="input-placeholder">HSL</span>
+            <input type="text" class="inputs" name="hsl-input" id="hsl-input">
+
+            <div class="icon-parent">
+                <img src="images/copy-icon.png" alt="C" class="copy-icon">
+            </div>
+
+            <div class="error" id="invalid-hsl">Invalid HSL!</div>
+        </div>
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
